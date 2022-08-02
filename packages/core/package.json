@@ -1,0 +1,38 @@
+{
+  "name": "@autowired/core",
+  "version": "0.0.1-beta.2",
+  "description": "",
+  "sideEffects": false,
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm5/index.js",
+  "es2015": "./dist/esm2015/index.js",
+  "typings": "./dist/types/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "!src"
+  ],
+  "scripts": {
+    "build": "npm run build:cjs",
+    "build:clean": "rimraf dist",
+    "build:es2015": "tsc --project tsconfig.prod.esm2015.json",
+    "build:esm5": "tsc --project tsconfig.prod.esm5.json",
+    "build:cjs": "tsc --project tsconfig.prod.cjs.json",
+    "build:types": "tsc --project tsconfig.prod.types.json"
+  },
+  "dependencies": {
+    "picomatch": "^2.3.1",
+    "electron-updater": "^5.0.5",
+    "@types/node": "^18.0.3",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4",
+    "electron": "^19.0.10"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "gitHead": "ac38614e586a1e5ad4189575bf7fc047362d0f6c"
+}

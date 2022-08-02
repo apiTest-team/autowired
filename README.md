@@ -1,2 +1,2 @@
 # autowired
-typescript依赖注入
+electron+vite+typescript

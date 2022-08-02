@@ -1,0 +1,35 @@
+{
+  "name": "@autowired/vite-plugin-electron",
+  "version": "0.0.1-beta.2",
+  "description": "",
+  "sideEffects": false,
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm5/index.js",
+  "es2015": "./dist/esm2015/index.js",
+  "typings": "./dist/types/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "npm run build:cjs",
+    "build:clean": "rimraf dist",
+    "build:es2015": "tsc --project tsconfig.prod.esm2015.json",
+    "build:esm5": "tsc --project tsconfig.prod.esm5.json",
+    "build:cjs": "tsc --project tsconfig.prod.cjs.json",
+    "build:types": "tsc --project tsconfig.prod.types.json"
+  },
+  "dependencies": {
+    "tsc-watch": "^5.0.3"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4",
+    "@types/node": "^18.6.2",
+    "@types/tsc-watch": "^4.2.0",
+    "vite": "^3.0.3",
+    "rollup": "^2.77.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "gitHead": "ac38614e586a1e5ad4189575bf7fc047362d0f6c"
+}
