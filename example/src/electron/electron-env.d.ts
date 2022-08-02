@@ -1,0 +1,1 @@
+/// <reference types="@autowired/vite-plugin-electron/electron-env" />
