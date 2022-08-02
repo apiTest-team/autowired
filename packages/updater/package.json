@@ -1,6 +1,6 @@
 {
   "name": "@autowired/updater",
-  "version": "0.0.1-beta.4",
+  "version": "0.0.1-beta.5",
   "description": "",
   "sideEffects": false,
   "main": "./dist/cjs/index.js",
@@ -22,7 +22,7 @@
     "build:types": "tsc --project tsconfig.prod.types.json"
   },
   "dependencies": {
-    "@autowired/core": "^0.0.1-beta.4",
+    "@autowired/core": "^0.0.1-beta.5",
     "electron-updater": "^5.0.5"
   },
   "devDependencies": {
@@ -32,5 +32,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "gitHead": "d60599e2706aa1071081c34678e6360173a58710"
+  "gitHead": "ab17f5735b961d3851c072632be17a2e48962b23"
 }

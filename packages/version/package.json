@@ -1,6 +1,6 @@
 {
   "name": "@autowired/version",
-  "version": "0.0.1-beta.4",
+  "version": "0.0.1-beta.5",
   "description": "Autowired Package Version Manager",
   "main": "index.js",
   "scripts": {},
@@ -12,11 +12,14 @@
     "versions",
     "index.js"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
   "author": "RuffianLiu <876771120@qq.com>",
   "repository": {
     "type": "git",
     "url": "https://github.com/apiTest-team/autowired.git"
   },
-  "gitHead": "d60599e2706aa1071081c34678e6360173a58710"
+  "gitHead": "ab17f5735b961d3851c072632be17a2e48962b23"
 }
