@@ -3,7 +3,7 @@
     "packages/*"
   ],
   "useNx": false,
-  "version": "0.0.1-beta.2",
+  "version": "0.0.1-beta.3",
   "useWorkspaces": true,
   "command": {
     "bootstrap": {
