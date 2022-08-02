@@ -1,6 +1,6 @@
 {
   "name": "@autowired/updater",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "",
   "sideEffects": false,
   "main": "./dist/cjs/index.js",
@@ -22,7 +22,7 @@
     "build:types": "tsc --project tsconfig.prod.types.json"
   },
   "dependencies": {
-    "@autowired/core": "^0.0.2",
+    "@autowired/core": "^0.0.1",
     "electron-updater": "^5.0.5"
   },
   "devDependencies": {
