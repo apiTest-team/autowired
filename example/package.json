@@ -1,6 +1,6 @@
 {
   "name": "ae",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "a fast development framework for electron",
   "main": "dist/electron/bootstrap.js",
   "license": "ISC",
@@ -31,11 +31,11 @@
     "VITE_DEV_SERVER_PORT": 3344
   },
   "dependencies": {
-    "@autowired/core": "^0.0.2",
-    "@autowired/updater": "^0.0.2"
+    "@autowired/core": "^0.0.1",
+    "@autowired/updater": "^0.0.1"
   },
   "devDependencies": {
-    "@autowired/vite-plugin-electron": "^0.0.2",
+    "@autowired/vite-plugin-electron": "^0.0.1",
     "@types/node": "^18.0.1",
     "@vitejs/plugin-vue": "^3.0.1",
     "electron": "^19.0.10",
