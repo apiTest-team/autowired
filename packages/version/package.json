@@ -1,0 +1,15 @@
+{
+  "name": "@autowired/version",
+  "version": "0.0.1-beta.2",
+  "description": "Autowired Package Version Manager",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": ["autowired","electron"],
+  "files": ["versions","index.js"],
+  "license": "MIT",
+  "author": "RuffianLiu <876771120@qq.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apiTest-team/autowired.git"
+  }
+}

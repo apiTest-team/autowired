@@ -1,5 +1,5 @@
 {
-  "name": "@autowired/core",
+  "name": "@autowired/updater",
   "version": "0.0.1-beta.2",
   "description": "",
   "sideEffects": false,
@@ -7,12 +7,12 @@
   "module": "./dist/esm5/index.js",
   "es2015": "./dist/esm2015/index.js",
   "typings": "./dist/types/index.d.ts",
-  "publishConfig": {
-    "access": "public"
-  },
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "npm run build:cjs",
     "build:clean": "rimraf dist",
@@ -22,12 +22,11 @@
     "build:types": "tsc --project tsconfig.prod.types.json"
   },
   "dependencies": {
-    "picomatch": "^2.3.1",
-    "reflect-metadata": "^0.1.13"
+    "electron-updater": "^5.0.5",
+    "@autowired/core": "0.0.1-beta.2"
   },
   "devDependencies": {
     "typescript": "^4.7.4",
-    "@types/node": "^18.0.3",
     "electron": "^19.0.10"
   },
   "keywords": [],
