@@ -1,6 +1,6 @@
 {
   "name": "@autowired/version",
-  "version": "0.0.1-beta.3",
+  "version": "0.0.1-beta.4",
   "description": "Autowired Package Version Manager",
   "main": "index.js",
   "scripts": {},
@@ -17,5 +17,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/apiTest-team/autowired.git"
-  }
+  },
+  "gitHead": "d60599e2706aa1071081c34678e6360173a58710"
 }

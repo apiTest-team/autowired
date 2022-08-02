@@ -1,6 +1,6 @@
 {
   "name": "@autowired/vite-plugin-electron",
-  "version": "0.0.1-beta.3",
+  "version": "0.0.1-beta.4",
   "description": "",
   "sideEffects": false,
   "main": "./dist/cjs/index.js",
@@ -31,5 +31,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "gitHead": "ac38614e586a1e5ad4189575bf7fc047362d0f6c"
+  "gitHead": "d60599e2706aa1071081c34678e6360173a58710"
 }
